@@ -1,0 +1,118 @@
+body{
+	background-color: #FFFFFF;
+    color: #002a4a;
+    font-weight: 250;
+	text-justify:center;
+	font-family: 'Lora', serif;
+	font-size: 16px;}
+
+    h2{color: #0070c9;
+		font-size: 22px;
+		font-family: 'Quintessential', cursive;
+		font-weight: bold;
+	}
+	
+	h1{color: #079993;
+		font-family: 'Quintessential', cursive;
+	}
+
+	ul {
+  margin-top: 20px;
+}
+
+a{text-decoration: none;
+	font-weight: 900
+	font-weight: 1200;
+	font-family: Helevetica;
+	color: #079993
+	margin-bottom: 60px;
+
+}
+
+a:hover{
+	color: #04031E
+}
+	
+#photo{
+	width: 15%;
+	border-radius:50%;
+	box-shadow: 5px 5px 17px #737373;
+}
+
+.logo-big{max-width: 100%;
+
+}
+
+.inner-div{box-shadow: 0px 10px 30px rgb(190 195 196 / 77%);
+    background: #a5dce8ba;
+    margin: 40px;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+
+.outer-div{width: 1400px;
+	margin:10px auto;
+	text-align: center;
+}
+
+@media (max-width: 960px) {
+  .outer-div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .outer-div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .outer-div {
+    width: 300px;
+  }
+}
+
+.button-pink {
+    background-color: #079993;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.button-pink p{
+	margin-bottom: 50px;}
+
+.button-pink:hover
+{
+	background-color: black;
+	color: white;
+}
+
+#Vaasa-button before p{
+	margin-bottom: 60px;
+ margin-bottom: 900px ;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline > li {
+  display: inline; 
+  padding: 10px;} 
+
+  .list-inline > i{
+  font size: xxx-large;
+  color: #E97B96;}
+
+  .fa-linkedin:before {
+    content: "\f08c";
+    font-size: xxx-large;
+}
+
+.fa-facebook-square:before {
+    content: "\f082";
+    FONT-SIZE: xxx-large;
+    ;
+}
